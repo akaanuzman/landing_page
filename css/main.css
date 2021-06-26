@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Bar */
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    transition: 1s;
+    border-radius: 4px;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name{
+    text-align: center;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+    text-shadow: 1px 2px 1px #888888;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+#home a{
+    margin-top: 1.25rem;
+    background: #336ea2;
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #888888;
+}
+#home a:hover{
+    background: white;
+    transition: 1s;
+    border: 3px solid #336ea2;
+    color: #336ea2;
+}
+#home img:hover{
+    border: 3px solid black;
+    transition: 1s;
+}
+
+/* Vizyon */
+
+#vizyon{
+    color: #fff;
+    padding: 1rem;
+}
+#vizyon .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#vizyon .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#vizyon .items .item:hover{
+    color: #336ea2;
+    transition: 1s;
+}
+
+/* Contact */
+
+#contact {
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  #contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+  }
+  #contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  #contact .contact-form ul li a:hover {
+    opacity: 0.8;
+  }
